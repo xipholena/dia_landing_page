@@ -87,6 +87,7 @@
     top: 5px;
     border-top-left-radius: 200px;
     overflow: hidden;
+    width: 1000px;
     &__wrapper {
       position: relative;
     }
@@ -147,6 +148,10 @@
   @media (min-width: 1401px) {
     &__slider {
       border-radius: 200px 200px 0 0;
+    }
+    &__slider-pic {
+      object-fit: cover;
+      border-top-right-radius: 200px;
     }
   }
   @media (max-width: 1300px) {
